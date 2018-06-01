@@ -1,0 +1,31 @@
+---
+title: emil @ night
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+author: Emil Sayahi
+author_link: http://emsa.cf
+author_description: Boy gee, hot golly! Things are looking, eh, pretty neato there!
+email: em@emsa.cf
+description: 'Liech.ga is a site where I, Emil Sayahi, share things and the whatnot
+  that I like, for other people to see. Hopefully they like it too! Mr. Google himself
+  will have to banish me from the search results to keep this flaming hot SEO in check,
+  baby!
+
+'
+baseurl: "/n"
+url: http://liech.ga
+picturefill: true
+typekit_kit_id: kwf5dox
+gems:
+- jekyll-paginate
+markdown: kramdown
+permalink: pretty
+paginate: 5
+sass:
+  style: compressed
