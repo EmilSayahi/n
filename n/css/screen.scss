@@ -44,9 +44,9 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "{{ site.baseurl }}/_sass/_mixins",
-        "{{ site.baseurl }}/_sass/_vendors",
-        "{{ site.baseurl }}/_sass/_base",
-        "{{ site.baseurl }}/_sass/_layout",
-        "{{ site.baseurl }}/_sass/_modules"
+        "{{ site.baseurl }}/_sass/_mixins.scss",
+        "{{ site.baseurl }}/_sass/_vendors.scss",
+        "{{ site.baseurl }}/_sass/_base.scss",
+        "{{ site.baseurl }}/_sass/_layout.scss",
+        "{{ site.baseurl }}/_sass/_modules.scss"
 ;
