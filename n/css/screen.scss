@@ -44,7 +44,7 @@ $img-location: '{{ site.baseurl }}/img/icon-location';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
+        "_mixins",
         "vendors",
         "base",
         "layout",
