@@ -16,7 +16,7 @@ description: > # this means to ignore newlines until "baseurl:"
   that I like, for other people to see. Hopefully they like it too!
   Mr. Google himself will have to banish me from the search results to
   keep this flaming hot SEO in check, baby!
-baseurl: "/n/" # the subpath of your site, e.g. /blog
+baseurl: "http://liech.ga/n/" # the subpath of your site, e.g. /blog
 url: "http://liech.ga/" # the base hostname & protocol for your site
 
 # Picturefill
