@@ -1,3 +1,8 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=D:\Downloads\galileo-theme-master.zip
+@mixin typekit-fallback {
+    @at-root {
+        .wf-inactive,
+        .wf-loading {
+            @content;
+        }
+    }
+}

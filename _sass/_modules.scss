@@ -1,3 +1,9 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=D:\Downloads\galileo-theme-master.zip
+@import
+    "modules/legal/rules",
+    "modules/post/rules",
+    "modules/pagination/rules"
+;
+
+@include galileo-legal;
+@include galileo-post;
+@include galileo-pagination;

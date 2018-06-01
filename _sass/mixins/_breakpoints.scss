@@ -1,3 +1,12 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=D:\Downloads\galileo-theme-master.zip
+@mixin min-breakpoint($point) {
+    @media only screen and (min-width: $point) {
+        @content;
+    }
+}
+
+@mixin max-breakpoint($point) {
+    @media only screen and (max-width: $point) {
+        @content;
+    }
+}
+

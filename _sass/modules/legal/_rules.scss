@@ -1,3 +1,7 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=D:\Downloads\galileo-theme-master.zip
+@import "modules/legal/variables";
+@mixin galileo-legal {
+    .legal {
+        color: $legal-text-color;
+        font-style: italic;
+    }
+}
