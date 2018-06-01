@@ -1,11 +1,11 @@
 ---
-title: The Galileo Theme
-date: 2015-11-15 12:05:14 Z
+title: A Journey
+date: 2018-06-01 17:00:00 Z
 categories:
 - jekyll
-- theme
+- project
+location: Cincinnati, OH
 layout: post
-location: Florence, Italy
 ---
 
 Landing somewhere between a scholarly publication and an adventurers notebook, the Galileo theme presents your words & photographs in a handsome, agreeable manner. It is well behaved on both mobile & desktop and radically minimal in its footprint. Charged and ready for deployment to Github Pages.
