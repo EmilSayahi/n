@@ -1,41 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: emil @ night
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author: Emil Sayahi
 author_link: http://emsa.cf
-author_description: 'Boy gee, hot golly! Things are looking, eh, pretty neato there!'
+author_description: Boy gee, hot golly! Things are looking, eh, pretty neato there!
 email: em@emsa.cf
-description: > # this means to ignore newlines until "baseurl:"
-  Liech.ga is a site where I, Emil Sayahi, share things and the whatnot
-  that I like, for other people to see. Hopefully they like it too!
-  Mr. Google himself will have to banish me from the search results to
-  keep this flaming hot SEO in check, baby!
-baseurl: "/n" # the subpath of your site, e.g. /blog
-url: "http://liech.ga" # the base hostname & protocol for your site
+description: 'Liech.ga is a site where I, Emil Sayahi, share things and the whatnot
+  that I like, for other people to see. Hopefully they like it too! Mr. Google himself
+  will have to banish me from the search results to keep this flaming hot SEO in check,
+  baby!
 
-# Picturefill
-# A responsive image polyfill: http://scottjehl.github.io/picturefill/
+'
+baseurl: "/n"
+url: http://liech.ga
 picturefill: true
-
-# Typography
-# To use, publish a kit and enter the ID here. If you do not wish to use Typekit,
-# leave this ID blank
 typekit_kit_id: kwf5dox
-
-# Build settings
-gems: [jekyll-paginate]
+gems:
+- jekyll-paginate
 markdown: kramdown
 permalink: pretty
-
-# Pagination
 paginate: 5
-
-# Sass
 sass:
-    style: :compressed
+  style: :compressed
