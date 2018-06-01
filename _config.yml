@@ -28,4 +28,4 @@ markdown: kramdown
 permalink: pretty
 paginate: 5
 sass:
-  style: :compressed
+  style: compressed
