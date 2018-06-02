@@ -3,3 +3,75 @@
         <h1>{{ site.title }}</h1>
     </a>
 </header>
+<style>
+.button {
+   margin-left: 10px;
+   margin-top: 10px;
+   opacity: .5;
+   border: 1px solid #000000;
+   background: #ff87b3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ff87b3), to(#ff87b3));
+   background: -webkit-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -moz-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -ms-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -o-linear-gradient(top, #ff87b3, #ff87b3);
+   background-image: -ms-linear-gradient(top, #ff87b3 0%, #ff87b3 100%);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #000000;
+   font-size: 13px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   opacity: 1;
+   border: 1px solid #000000;
+   text-shadow: #000000 0 1px 0;
+   background: #ff87b3;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ff87b3), to(#ff87b3));
+   background: -webkit-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -moz-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -ms-linear-gradient(top, #ff87b3, #ff87b3);
+   background: -o-linear-gradient(top, #ff87b3, #ff87b3);
+   background-image: -ms-linear-gradient(top, #ff87b3 0%, #ff87b3 100%);
+   color: #000000;
+   }
+.button:active {
+   text-shadow: #000000 0 1px 0;
+   border: 1px solid #000000;
+   background: #f0bbdf;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f0bbdf), to(#ff87b3));
+   background: -webkit-linear-gradient(top, #f0bbdf, #f0bbdf);
+   background: -moz-linear-gradient(top, #f0bbdf, #f0bbdf);
+   background: -ms-linear-gradient(top, #f0bbdf, #f0bbdf);
+   background: -o-linear-gradient(top, #f0bbdf, #f0bbdf);
+   background-image: -ms-linear-gradient(top, #f0bbdf 0%, #f0bbdf 100%);
+   color: #000000;
+   }
+</style>
+<script>
+function loadAnnotations() {
+   var script = document.createElement('script');
+   script.src = 'https://hypothes.is/embed.js';
+   var head = document.getElementsByTagName("head")[0];
+   head.appendChild(script);
+   document.getElementById('show_button').style.visibility = "hidden";
+}
+</script>
+<button class='button' onclick="loadAnnotations()" id="show_button">Enable annotations</button>
+<!-- <script src="https://hypothes.is/embed.js" async></script> -->
+<!-- <script type="text/javascript">
+    document.getElementById('button').addEventListener('click',hideshow,false);
+    
+    function hideshow() {
+        document.getElementById('hidden-div').style.display = 'block'; 
+        this.style.display = 'none'
+    }
+-->
